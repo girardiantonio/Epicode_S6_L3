@@ -1,0 +1,112 @@
+#button-first {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5em;
+}
+#button-first button {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(90deg, rgb(9, 9, 121) 35%, rgb(255, 0, 0) 100%);
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+}
+#button-first:hover {
+  transform: scale(1.1);
+}
+
+#button-second {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5em;
+}
+#button-second button {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgb(89, 89, 155) 35%,
+    rgb(158, 124, 124) 100%
+  );
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+}
+#button-second:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 5em;
+}
+
+#images {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+nav {
+  height: 100%;
+}
+nav #navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: white;
+}
+header a {
+  text-decoration: none;
+  color: gray;
+}
+
+#ul-container {
+  display: flex;
+  justify-content: center;
+}
+#ul-container ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+#ul-container ul li {
+  margin: 0 1em;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+#ul-container ul li:hover {
+  transform: scale(1.1);
+}
+
+main {
+  height: 100%;
+  background-color: rgb(196, 233, 233);
+  background-size: cover;
+}
+main #main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main p {
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+  color: rgb(217, 111, 13);
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+} /*# sourceMappingURL=style.css.map */

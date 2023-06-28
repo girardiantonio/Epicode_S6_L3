@@ -1,0 +1,16 @@
+nav {
+  height: 100%;
+
+  #navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+header {
+  background-color: white;
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+}

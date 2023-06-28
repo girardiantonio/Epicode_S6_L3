@@ -1,0 +1,20 @@
+main {
+  height: 100%;
+  background-image: url(https://wips.plug.it/cips/tecnologia/cms/2022/06/primo-robot-ribelle.jpg);
+  background-size: cover;
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  p {
+    font: {
+      size: 3em;
+      family: "Poppins", sans-serif;
+    }
+    color: white;
+    margin: 0;
+  }
+}
